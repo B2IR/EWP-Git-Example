@@ -1,0 +1,22 @@
+{"data":[
+	{"befehl": "clone",
+	"beispiel": "$ git clone https://github.com/B2IR/EWP-Git-Example.git",
+	"beschreibung": "Erstellt einen lokalen Klon."
+	},
+	{"befehl": "add",
+	"beispiel": "$ git add index.html",
+	"beschreibung": "Markiert Dateien, die für den Befehl\"commit\" verwendet werden sollen."
+	},
+	{"befehl": "commit",
+	"beispiel": "$ git commit -m \"Datum aktualisiert\"",
+	"beschreibung": "Speichert die Änderungen in den zuvor markierten Dateien lokal."
+	},
+	{"befehl": "push",
+	"beispiel": "$ git push origin master",
+	"beschreibung": "Lädt die neue Version auf den Server hoch."
+	},
+	{"befehl": "pull",
+	"beispiel": "$ git pull https://github.com/B2IR/EWP-Git-Example.git",
+	"beschreibung": "Synchronisiert den lokalen Klon mit dem Master."
+	}
+]}

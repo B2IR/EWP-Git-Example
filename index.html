@@ -3,19 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>EWP Git Example</title>
+	<link rel="stylesheet" href="githa.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.css">
 </head>
 <body>
 
-<h1>Psyduck's Homepage</h1>
-
-<img src="http://goo.gl/Veq8WJ" alt="Welches Pokemon ist das?">
+<a href="https://github.com/B2IR/EWP-Git-Example" target="_blank"><img id="logo" src="GitHub-Mark.png" alt="github logo"></a>
 
 <div>
 	
-	<!-- TODO: Nach dem Kommentar etwas Text einfügen -->
-	<p>Ducks</p>
+	<p>Um an einem Projekt zu arbeiten, erstellt man sich zunächst eine lokale Kopie mit <span class="befehl" id="clone">git clone</span>.
+	Die Dateien, an denen man Änderungen vorgenommen hat, fügt man mit <span class="befehl" id="add">git add</span> einer Art Liste hinzu.
+	Die so markierten Dateien müssen mit <span class="befehl" id="commit">git commit</span> lokal abgespeichert werden.
+	Die neue Version kann dann mit <span class="befehl" id="push">git push</span> auf den Server geladen werden.
+	Mit <span class="befehl" id="pull">git pull</span> wird der lokale Klon mit dem Master synchronisiert.</p>
+
 
 </div>
+
+<table id="befehle">
+			<thead>
+				<tr>
+					<th>Befehl</th>
+					<th>Beispiel</th>
+					<th>Beschreibung</th>
+				</tr>
+			</thead>
+		</table>
+
+
+<div id="clonebsp">$ git clone https://github.com/B2IR/EWP-Git-Example.git</div>
+<div id="addbsp">$ git add index.html</div>
+<div id="commitbsp">$ git commit -m "Datum aktualisiert"</div>
+<div id="pushbsp">$ git push origin master</div>
+<div id="pullbsp">$ git pull https://github.com/B2IR/EWP-Git-Example.git</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js"></script>
+<script src="githa.js"></script>
 
 </body>
 </html>
